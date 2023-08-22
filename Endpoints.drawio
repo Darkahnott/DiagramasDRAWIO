@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T14:00:05.181Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="HbS5qrvJ3WwxKP-Vqgcl" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-22T14:27:54.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ySpQBp5inIIUozQT0DzF" version="21.6.8" type="github">
   <diagram name="Página-1" id="eMHlVDCelIliE96y5iJp">
-    <mxGraphModel dx="2074" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="2000" math="0" shadow="0">
+    <mxGraphModel dx="2963" dy="1071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="2500" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,25 +135,39 @@
             <mxPoint x="410.66666666666697" y="1500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tfo9UOyOJ3hsdxHMLcPj-50" value="&lt;b&gt;De manera externa se puede consultar una lista con los Namespaces creados en el SiteID.&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BE8CFF;" vertex="1" parent="1">
-          <mxGeometry x="331" y="1380" width="159" height="60" as="geometry" />
+        <mxCell id="tfo9UOyOJ3hsdxHMLcPj-50" value="&lt;b&gt;Una vez que se hayan llevado acabo las operaciones pertinentes, es necesario usar el &lt;i&gt;&lt;font color=&quot;#ff0000&quot;&gt;API de WebView&lt;/font&gt; &lt;/i&gt;para terminar la conversación con el usuario.&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="306" y="1350" width="209" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tfo9UOyOJ3hsdxHMLcPj-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tfo9UOyOJ3hsdxHMLcPj-52" target="tfo9UOyOJ3hsdxHMLcPj-54">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410.66666666666697" y="1590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tfo9UOyOJ3hsdxHMLcPj-52" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;i style=&quot;&quot;&gt;Consultar&lt;/i&gt; los namespaces&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt; usando el endpoint provisto.&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dfc7ff;" vertex="1" parent="1">
-          <mxGeometry x="331" y="1470" width="159" height="60" as="geometry" />
+        <mxCell id="tfo9UOyOJ3hsdxHMLcPj-52" value="&lt;b style=&quot;&quot;&gt;Usando el endpoint provisto se detonará un retorno a la conversación, mandando al Bot un mensaje que detonará un Diálogo con la información pertinente al usuario.&amp;nbsp;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCDA00;fontColor=#000000;strokeColor=#fda726;" vertex="1" parent="1">
+          <mxGeometry x="301" y="1470" width="219" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tfo9UOyOJ3hsdxHMLcPj-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tfo9UOyOJ3hsdxHMLcPj-54" target="tfo9UOyOJ3hsdxHMLcPj-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tfo9UOyOJ3hsdxHMLcPj-54" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Una vez identificado el Namespace, podemos &lt;/font&gt;&lt;font color=&quot;#fc0000&quot;&gt;&lt;i style=&quot;&quot;&gt;Consultar &lt;/i&gt;sus propiedades&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt; usando el endpoint provisto&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dfc7ff;" vertex="1" parent="1">
-          <mxGeometry x="331" y="1560" width="166" height="60" as="geometry" />
+        <mxCell id="tfo9UOyOJ3hsdxHMLcPj-54" value="&lt;b&gt;De los atributos del enpoint, se debe considerar que la variable de encabezado&amp;nbsp;&lt;/b&gt;&lt;font style=&quot;font-weight: bold; font-style: italic;&quot; color=&quot;#ff0000&quot;&gt;Authorization &lt;/font&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;se obtiene al aplicar un Sha256 a dos atributos obtenidos previamente en los namespaces, el &lt;font color=&quot;#ff3333&quot;&gt;conversationId &lt;/font&gt;y &lt;font color=&quot;#ff3333&quot;&gt;botId.&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCDA00;strokeColor=#fda726;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="294.25" y="1580" width="232.5" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="tfo9UOyOJ3hsdxHMLcPj-55" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Una vez esto hecho, se debe &lt;/font&gt;&lt;font color=&quot;#ff0019&quot;&gt;Borrar el namespace&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;, usando el endpoint provisto.&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dfc7ff;" vertex="1" parent="1">
-          <mxGeometry x="331" y="1650" width="166" height="60" as="geometry" />
+        <mxCell id="tfo9UOyOJ3hsdxHMLcPj-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tfo9UOyOJ3hsdxHMLcPj-55" target="tfo9UOyOJ3hsdxHMLcPj-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfo9UOyOJ3hsdxHMLcPj-55" value="&lt;b&gt;La cadena a la que se debe aplicar este &lt;i&gt;SHA256 &lt;/i&gt;es el siguiente:&lt;br&gt;&lt;br&gt;&lt;i&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 14px;&quot;&gt;conversationId || botId&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Respetando los espacios que anteceden y preceden a los caracteres &quot;||&quot;.&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Ejemplo:&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;a845678d-fe5a-429e-bc46-b25d524b9fa7 || 795bb1534e34fc89050304e6f6827c41c50410d7&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCDA00;strokeColor=#fda726;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="155.5" y="1740" width="510" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tfo9UOyOJ3hsdxHMLcPj-57" value="&lt;b&gt;Para el Body de la solicitud es necesario contar con los siguientes campos:&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); line-height: 18px;&quot;&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;botId&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;conversationId&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;:&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;tarj_desbl_XXYY&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;b&gt;&lt;br&gt;&lt;br&gt;Donde los primeros 3 campos fueron obtenidos desde la &lt;font color=&quot;#ff3333&quot;&gt;consulta de propiedades de los namespaces&lt;/font&gt;, y el &lt;font color=&quot;#ff0000&quot;&gt;mensaje&lt;/font&gt; siendo aquel que esté especificado &lt;font color=&quot;#ff0000&quot;&gt;en el patrón del diálogo&lt;/font&gt; del Bot que se encarga de mostrar el mensaje pertinente al usuario de acuerdo con el caso de uso (Sí reconozco o No reconozco).&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCDA00;strokeColor=#fda726;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="223.25" y="1930" width="374.5" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="tfo9UOyOJ3hsdxHMLcPj-60" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=none;strokeColor=#FF9933;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-52.12" y="1491.25" width="925.25" height="587.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tfo9UOyOJ3hsdxHMLcPj-61" value="&lt;b&gt;&lt;font color=&quot;#ff9933&quot; style=&quot;font-size: 15px;&quot;&gt;API WebView&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1320" width="157" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
