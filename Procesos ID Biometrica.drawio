@@ -1,58 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T22:12:27.060Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="VrS8yej3W2w9zB7IsJOP" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-15T16:31:24.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="fAPdY4TwYMkNSvM48aRK" version="21.7.5" type="github">
   <diagram name="Página-1" id="3W_ffy-Xjthlt9i75EV4">
-    <mxGraphModel dx="2765" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="2600" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="2600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-3" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;El usuario interactúa con el bot.&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#E9DDF0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-3" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;El usuario interactúa con el bot.&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#E9DDF0;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="272" y="60" width="146" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-3" target="4Dnv8CeWfzwB16bQ7a4x-5">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-3" target="4Dnv8CeWfzwB16bQ7a4x-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="301" y="300" as="sourcePoint" />
             <mxPoint x="345" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-5" value="&lt;b&gt;Se captura la información de la conversación y se alamacena en el espacio de memoria (Namespace)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C2B7C7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-5" value="&lt;b&gt;Se captura la información de la conversación y se alamacena en el espacio de memoria (Namespace)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C2B7C7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="260" y="161.25" width="169" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-5" target="4Dnv8CeWfzwB16bQ7a4x-7">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-5" target="4Dnv8CeWfzwB16bQ7a4x-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="321" y="340" as="sourcePoint" />
             <mxPoint x="531" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-7" value="&lt;b&gt;El Namespace generado tiene el siguiente formato de nombre:&lt;/b&gt;&lt;br&gt;&lt;br&gt;SiteId_Canal_BIO_numeroTelefónico&lt;br&gt;&lt;br&gt;&lt;b&gt;Ejemplo&lt;/b&gt;&lt;br&gt;53390678_WA_BIO_5215540152175 " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BEB3C2;strokeColor=#dacedf;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-7" value="&lt;b&gt;El Namespace generado tiene el siguiente formato de nombre:&lt;/b&gt;&lt;br&gt;&lt;br&gt;SiteId_Canal_BIO_numeroTelefónico&lt;br&gt;&lt;br&gt;&lt;b&gt;Ejemplo&lt;/b&gt;&lt;br&gt;53390678_WA_BIO_5215540152175 " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BEB3C2;strokeColor=#dacedf;" parent="1" vertex="1">
           <mxGeometry x="501" y="142.5" width="230" height="117.5" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-8" value="&lt;b&gt;Los datos que se guardan son los identificadores únicos de la conversación, bot y usuario.&lt;br&gt;&lt;/b&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;botId&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;conversationId&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;userId&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C2B7C7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-8" value="&lt;b&gt;Los datos que se guardan son los identificadores únicos de la conversación, bot y usuario.&lt;br&gt;&lt;/b&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;botId&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;conversationId&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;userId&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C2B7C7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="260" y="270" width="171" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-5" target="4Dnv8CeWfzwB16bQ7a4x-8">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-5" target="4Dnv8CeWfzwB16bQ7a4x-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="345" y="278.75" as="sourcePoint" />
             <mxPoint x="345" y="328.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-12" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-12" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="230" y="10" width="519" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="4Dnv8CeWfzwB16bQ7a4x-12">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#9673a6;" parent="4Dnv8CeWfzwB16bQ7a4x-12" vertex="1">
           <mxGeometry width="510" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Interacción con el chatbot&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4Dnv8CeWfzwB16bQ7a4x-12">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Interacción con el chatbot&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="4Dnv8CeWfzwB16bQ7a4x-12" vertex="1">
           <mxGeometry width="222.42857142857144" height="31.22448979591837" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-13" value="&lt;b&gt;La conversación con el usuario queda en espera.&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C2B7C7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-13" value="&lt;b&gt;La conversación con el usuario queda en espera.&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C2B7C7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="262" y="430" width="169" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-8" target="4Dnv8CeWfzwB16bQ7a4x-13">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-8" target="4Dnv8CeWfzwB16bQ7a4x-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="420" as="sourcePoint" />
             <mxPoint x="341" y="449" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-15" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-62" target="4Dnv8CeWfzwB16bQ7a4x-10">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-15" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-62" target="4Dnv8CeWfzwB16bQ7a4x-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="20" y="2170" as="sourcePoint" />
             <mxPoint x="120" y="270" as="targetPoint" />
@@ -62,132 +62,141 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-21" value="&lt;b&gt;La conversación &lt;br&gt;queda a la espera&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4Dnv8CeWfzwB16bQ7a4x-15">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-21" value="&lt;b&gt;La conversación &lt;br&gt;queda a la espera&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4Dnv8CeWfzwB16bQ7a4x-15" vertex="1" connectable="0">
           <mxGeometry x="0.7812" relative="1" as="geometry">
             <mxPoint x="100" y="-53" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-16" value="&lt;b&gt;De manera externa y usando los endpoints provistos, se podrá acceder a la información antes recabada por el bot.&lt;/b&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-16" value="&lt;b&gt;De manera externa y usando los endpoints provistos, se podrá acceder a la información antes recabada por el bot.&lt;/b&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="437.26" y="600" width="181" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-17" value="&lt;b&gt;Primero se usa el endpoint de Login para así obtener el token de autorización para las siguientes consultas.&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBB6B4;strokeColor=#FC6F68;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-17" value="&lt;b&gt;Primero se usa el endpoint de Login para así obtener el token de autorización para las siguientes consultas.&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBB6B4;strokeColor=#FC6F68;" parent="1" vertex="1">
           <mxGeometry x="445.01" y="700" width="166.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-16" target="4Dnv8CeWfzwB16bQ7a4x-17">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-16" target="4Dnv8CeWfzwB16bQ7a4x-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="573.26" y="740" as="sourcePoint" />
             <mxPoint x="623.26" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-19" value="&lt;b&gt;Después, usando el endpoint de Consulta de propiedades, debemos indicar en la URL el nombre del Namespace que queremos consultar. El token generado anteriormente se usa como paramétro de consulta.&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBB6B4;strokeColor=#FF746F;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-19" value="&lt;b&gt;Después, usando el endpoint de Consulta de propiedades, debemos indicar en la URL el nombre del Namespace que queremos consultar. El token generado anteriormente se usa como paramétro de consulta.&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBB6B4;strokeColor=#FF746F;" parent="1" vertex="1">
           <mxGeometry x="418.38" y="800" width="218.75" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-17" target="4Dnv8CeWfzwB16bQ7a4x-19">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-17" target="4Dnv8CeWfzwB16bQ7a4x-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="573.26" y="770" as="sourcePoint" />
             <mxPoint x="623.26" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-22" value="&lt;b&gt;Finalmente, una vez que se consultaron las propiedades y que fueron resguardadas por sus sistemas, se deberá usar el endpoint de &quot;Borrado de Namespace&quot; para no dejar la información remanente en el sitio y evitar sobrecargas de memoria, especificando el nombre del mismo en la URL y usando como parámetro de consulta la token generada por el Login&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBB6B4;strokeColor=#FF746F;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-22" value="&lt;b&gt;Finalmente, una vez que se consultaron las propiedades y que fueron resguardadas por sus sistemas, se deberá usar el endpoint de &quot;Borrado de Namespace&quot; para no dejar la información remanente en el sitio y evitar sobrecargas de memoria, especificando el nombre del mismo en la URL y usando como parámetro de consulta la token generada por el Login&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBB6B4;strokeColor=#FF746F;" parent="1" vertex="1">
           <mxGeometry x="400" y="920" width="255.51" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-19" target="4Dnv8CeWfzwB16bQ7a4x-22">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-19" target="4Dnv8CeWfzwB16bQ7a4x-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="573.26" y="890" as="sourcePoint" />
             <mxPoint x="623.26" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-30" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="198.99999999999997" y="559" width="480" height="519" as="geometry" />
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-30" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="134.19" y="523" width="614.81" height="555.46" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-25" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=none;strokeColor=#b85450;" vertex="1" parent="4Dnv8CeWfzwB16bQ7a4x-30">
-          <mxGeometry x="-19.49999999999997" y="19.5" width="519" height="480" as="geometry" />
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-25" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=none;strokeColor=#b85450;" parent="4Dnv8CeWfzwB16bQ7a4x-30" vertex="1">
+          <mxGeometry x="3.15" y="14.96" width="544.56" height="540.5" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-27" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Uso de Endpoints:&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;Manejo de los Namespace&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4Dnv8CeWfzwB16bQ7a4x-30">
-          <mxGeometry x="1.0000000000000284" y="1" width="190" height="40" as="geometry" />
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-27" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Uso de Endpoints:&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;Manejo de los Namespace&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="4Dnv8CeWfzwB16bQ7a4x-30" vertex="1">
+          <mxGeometry x="-5.8297083333333" y="12" width="222.35541666666668" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-31" value="&lt;b&gt;Una vez que se hayan llevado a cabo todas las operaciones pertinentes con la información provista por el chatbot, habrá que &quot;avisar&quot; al usuario.&lt;/b&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-31" value="&lt;b&gt;Una vez que se hayan llevado a cabo todas las operaciones pertinentes con la información provista por el chatbot, habrá que &quot;avisar&quot; al usuario.&lt;/b&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="428.89" y="1130" width="197.74" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-31" target="4Dnv8CeWfzwB16bQ7a4x-33">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-31" target="4Dnv8CeWfzwB16bQ7a4x-33" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="1390" as="sourcePoint" />
             <mxPoint x="528" y="1280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-33" value="&lt;b&gt;Para esto utilizaremos el endpoint de Webview.&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0C29B;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-33" value="&lt;b&gt;Para esto utilizaremos el endpoint de Webview.&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0C29B;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="456.64" y="1250" width="142.24" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-34" target="4Dnv8CeWfzwB16bQ7a4x-38">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-34" target="4Dnv8CeWfzwB16bQ7a4x-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-34" value="&lt;b&gt;Como valor de autorización utilizaremos los valores de ID de conversación y del bot, aplicando un SHA256 usando el siguiente formato:&lt;br&gt;&lt;br&gt;&lt;/b&gt;conversationId || botId&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0C29B;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-34" value="&lt;b&gt;Como valor de autorización utilizaremos los valores de ID de conversación y del bot, aplicando un SHA256 usando el siguiente formato:&lt;br&gt;&lt;br&gt;&lt;/b&gt;conversationId || botId&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0C29B;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="421.58" y="1340" width="213.36" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-33" target="4Dnv8CeWfzwB16bQ7a4x-34">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-33" target="4Dnv8CeWfzwB16bQ7a4x-34" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="1320" as="sourcePoint" />
             <mxPoint x="527.26" y="1340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-38" target="4Dnv8CeWfzwB16bQ7a4x-42">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-38" target="4Dnv8CeWfzwB16bQ7a4x-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-38" value="&lt;b&gt;Una vez con este dato generado y especificado como el valor de autorización, se debe construir el cuerpo de la consulta.&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0C29B;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-38" value="&lt;b&gt;Una vez con este dato generado y especificado como el valor de autorización, se debe construir el cuerpo de la consulta.&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0C29B;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="438.54999999999995" y="1480" width="178.42" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-42" target="4Dnv8CeWfzwB16bQ7a4x-44">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-42" target="4Dnv8CeWfzwB16bQ7a4x-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-42" value="&lt;b&gt;El cuerpo se construye, en primera instancia, con los valores de botId, conversationId y userId. &lt;br&gt;&lt;br&gt;Después, viene la variable &quot;message&quot; que es el mensaje interno que recibe el bot por el cual se guía para retomar la conversación y comenzar con el resto de la interacción.&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0C29B;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-42" value="&lt;b&gt;El cuerpo se construye, en primera instancia, con los valores de botId, conversationId y userId. &lt;br&gt;&lt;br&gt;Después, viene la variable &quot;message&quot; que es el mensaje interno que recibe el bot por el cual se guía para retomar la conversación y comenzar con el resto de la interacción.&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0C29B;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="412.67999999999995" y="1600" width="230.16" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-44" value="&lt;b&gt;Al final, tenemos la variable &quot;payload&quot;. Que consiste de un arreglo de variables con las que podemos darle contexto al bot.&lt;br&gt;&lt;br&gt;En los ejemplos provistos se tienen dos, &quot;Auth&quot; y &quot;Message&quot;, que simbolizan el caso de uso donde se espera mandar el resultado final de su proceso interno para la autenticación y un mensaje de control. &lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0C29B;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-44" value="&lt;b&gt;Al final, tenemos la variable &quot;payload&quot;. Que consiste de un arreglo de variables con las que podemos darle contexto al bot.&lt;br&gt;&lt;br&gt;En los ejemplos provistos se tienen dos, &quot;Auth&quot; y &quot;Message&quot;, que simbolizan el caso de uso donde se espera mandar el resultado final de su proceso interno para la autenticación y un mensaje de control. &lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0C29B;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="399.1" y="1770" width="257.32" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-47" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-13" target="4Dnv8CeWfzwB16bQ7a4x-48">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-47" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-13" target="4Dnv8CeWfzwB16bQ7a4x-48" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="480" as="sourcePoint" />
             <mxPoint x="540" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-48" value="&lt;b&gt;Nota: la duración de la conversación en este estado es de 24 horas.&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BEB3C2;strokeColor=#dacedf;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-48" value="&lt;b&gt;Nota: la duración de la conversación en este estado es de 24 horas.&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BEB3C2;strokeColor=#dacedf;" parent="1" vertex="1">
           <mxGeometry x="486.63" y="445" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-52" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-52" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="199" y="1100" width="481" height="850" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-49" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=none;strokeColor=#d6b656;" vertex="1" parent="4Dnv8CeWfzwB16bQ7a4x-52">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-49" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=none;strokeColor=#d6b656;" parent="4Dnv8CeWfzwB16bQ7a4x-52" vertex="1">
           <mxGeometry x="-184" y="185" width="850" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-51" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Uso de Endpoints:&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;&lt;br&gt;Webview - Retorno a la conversación&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4Dnv8CeWfzwB16bQ7a4x-52">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-51" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Uso de Endpoints:&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;&lt;br&gt;Webview - Retorno a la conversación&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="4Dnv8CeWfzwB16bQ7a4x-52" vertex="1">
           <mxGeometry width="221" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-56" target="4Dnv8CeWfzwB16bQ7a4x-58">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-56" target="4Dnv8CeWfzwB16bQ7a4x-58" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="392" y="2310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-56" value="&lt;b&gt;Al regresar, el bot evaluara el valor de la variable &quot;Auth&quot; antes mandada por el enpoint de Webview.&lt;/b&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-56" value="&lt;b&gt;Al regresar, el bot evaluara el valor de la variable &quot;Auth&quot; antes mandada por el enpoint de Webview.&lt;/b&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="257" y="2100" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-58" target="4Dnv8CeWfzwB16bQ7a4x-59">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4Dnv8CeWfzwB16bQ7a4x-58" target="4Dnv8CeWfzwB16bQ7a4x-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-58" value="&lt;b&gt;En cualquier caso se mostrara un mensaje pertinente a la naturaleza de dicha variable y se mostrara a continuación la frase &quot;Mensaje:&quot; seguida del contenido de la variable &quot;Message&quot; del Webview.&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BEB3C2;strokeColor=#584361;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-58" value="&lt;b&gt;En cualquier caso se mostrara un mensaje pertinente a la naturaleza de dicha variable y se mostrara a continuación la frase &quot;Mensaje:&quot; seguida del contenido de la variable &quot;Message&quot; del Webview.&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BEB3C2;strokeColor=#584361;" parent="1" vertex="1">
           <mxGeometry x="246" y="2210" width="201" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-59" value="&lt;b&gt;Luego de esto la conversación se da por terminada.&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BEB3C2;strokeColor=#584361;" vertex="1" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-59" value="&lt;b&gt;Luego de esto la conversación se da por terminada.&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BEB3C2;strokeColor=#584361;" parent="1" vertex="1">
           <mxGeometry x="250.5" y="2350" width="192" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-61" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-61" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="150" y="2010" width="519" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-62" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#9673a6;" vertex="1" parent="4Dnv8CeWfzwB16bQ7a4x-61">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-62" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=#9673a6;" parent="4Dnv8CeWfzwB16bQ7a4x-61" vertex="1">
           <mxGeometry width="510" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-63" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Retorno a la conversación&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4Dnv8CeWfzwB16bQ7a4x-61">
+        <mxCell id="4Dnv8CeWfzwB16bQ7a4x-63" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Retorno a la conversación&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="4Dnv8CeWfzwB16bQ7a4x-61" vertex="1">
           <mxGeometry width="222.42857142857144" height="31.22448979591837" as="geometry" />
+        </mxCell>
+        <mxCell id="VkwQe0JoU8ddELdiJYX3-1" value="&lt;b&gt;IMPORTANTE:&lt;br&gt;&lt;br&gt;Es de suma importancia llevar a cabo el borrado manual para evitar problemas con memoria en el SiteID y como buena práctica de desarrollo. &lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="150" y="935" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VkwQe0JoU8ddELdiJYX3-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VkwQe0JoU8ddELdiJYX3-1" target="4Dnv8CeWfzwB16bQ7a4x-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1090" as="sourcePoint" />
+            <mxPoint x="380" y="1040" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
