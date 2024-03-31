@@ -1,9 +1,139 @@
-<mxfile host="app.diagrams.net" modified="2024-03-31T20:03:23.443Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" version="22.1.18" etag="uTBrJ3Es7mnAx8bLEz7Z" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-31T21:08:46.900Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="TQpdamxJLNV5fXni3SZr" version="22.1.18" type="github">
   <diagram name="PÃ¡gina-1" id="yqlE_gQyOXb5UloV9ekd">
-    <mxGraphModel>
+    <mxGraphModel dx="1536" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="2000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iVylLPI4REKki-Btl7ya-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iVylLPI4REKki-Btl7ya-1" target="iVylLPI4REKki-Btl7ya-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-4" value="Nuevo usuario" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iVylLPI4REKki-Btl7ya-3">
+          <mxGeometry x="-0.0832" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iVylLPI4REKki-Btl7ya-1" target="iVylLPI4REKki-Btl7ya-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1173" y="240.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-7" value="Usuario recurrente" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iVylLPI4REKki-Btl7ya-5">
+          <mxGeometry x="0.7632" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Inicio&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="703" y="20" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-2" value="&lt;div align=&quot;justify&quot;&gt;í ½í±‹ Â¡Saludos! Soy NombreDelBot, el asistente virtual de Super Store. Es un placer tenerle aquÃ­.&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;Al seguir con nuestra interacciÃ³n, &lt;b&gt;acepta nuestras &lt;/b&gt;&lt;b&gt;polÃ­ticas de privacidad&lt;/b&gt;. Si desea revisarlas, puede encontrarlas en: í ½í±‡&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;&lt;a target=&quot;_new&quot;&gt;https://www.superstore.com/politicas-de-privacidad&lt;br&gt;&lt;/a&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="287" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-6" value="&lt;div class=&quot;flex flex-grow flex-col max-w-full&quot;&gt;&lt;div class=&quot;min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;amp;]:mt-5 overflow-x-auto&quot; data-message-id=&quot;6d1259b4-cb01-4cbf-ba96-0d28bbcf0bf0&quot; data-message-author-role=&quot;assistant&quot;&gt;&lt;div class=&quot;markdown prose w-full break-words dark:prose-invert dark&quot;&gt;&lt;p&gt;Â¡Hola de nuevo! Soy NombreDelBot, su asistente virtual de confianza en Super Store. Es genial verle por aquÃ­ una vez mÃ¡s.&lt;/p&gt;&lt;p&gt;Al continuar con nuestra interacciÃ³n, reafirma su acuerdo con nuestras polÃ­ticas de privacidad. Si desea repasarlas, estÃ¡n disponibles aquÃ­: í ½í±‡&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.superstore.com/politicas-de-privacidad&quot; target=&quot;_new&quot;&gt;https://www.superstore.com/politicas-de-privacidad&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="923" y="150" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iVylLPI4REKki-Btl7ya-8" target="iVylLPI4REKki-Btl7ya-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="540" />
+              <mxPoint x="970" y="590" />
+              <mxPoint x="920" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-29" value="Carrusel informativo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iVylLPI4REKki-Btl7ya-28">
+          <mxGeometry x="-0.0379" y="3" relative="1" as="geometry">
+            <mxPoint x="-53" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-8" value="&lt;div class=&quot;flex flex-grow flex-col max-w-full&quot;&gt;&lt;div class=&quot;min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;amp;]:mt-5 overflow-x-auto&quot; data-message-id=&quot;7e55b4e4-aeba-4bbc-aae0-2b37fe9931b0&quot; data-message-author-role=&quot;assistant&quot;&gt;&lt;div class=&quot;markdown prose w-full break-words dark:prose-invert dark&quot;&gt;Â¡Descubra las ofertas de temporada en Super Store! í ¼í¾‰&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="500" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iVylLPI4REKki-Btl7ya-11" target="iVylLPI4REKki-Btl7ya-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-11" value="API Ofertas" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="870" y="380" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iVylLPI4REKki-Btl7ya-2" target="iVylLPI4REKki-Btl7ya-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iVylLPI4REKki-Btl7ya-6" target="iVylLPI4REKki-Btl7ya-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1068" y="330" />
+              <mxPoint x="900" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iVylLPI4REKki-Btl7ya-11" target="iVylLPI4REKki-Btl7ya-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="430" as="sourcePoint" />
+            <mxPoint x="1150" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1110" y="360" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-15" value="De la respuesta se extraen aquellos objetos cuyo atributo &lt;b&gt;&quot;important&quot;&lt;/b&gt;, este marcado como &lt;b&gt;true&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="iVylLPI4REKki-Btl7ya-17">
+          <mxGeometry y="30" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-16" value="GET /ofertas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iVylLPI4REKki-Btl7ya-17">
+          <mxGeometry x="65" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="740" y="640" width="305" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-22" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="iVylLPI4REKki-Btl7ya-26">
+          <mxGeometry x="7" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-24" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="iVylLPI4REKki-Btl7ya-26">
+          <mxGeometry x="30" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-25" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Â¡Oferta relÃ¡mpago! 20% de cashback...&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;VÃ¡lido del XX de YY al XX de YY&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="iVylLPI4REKki-Btl7ya-26">
+          <mxGeometry x="55" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-30" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.container_registry_image;" vertex="1" parent="iVylLPI4REKki-Btl7ya-26">
+          <mxGeometry x="125.75" y="10" width="108.5" height="108.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-33" value="Se construye el carrusel con los datos de cada objeto obtenido desde la API. La fecha es convertida a un formato simple para facilitar visualizaciÃ³n. El tamaÃ±o del carrusel es variable." style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="740" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-35" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iVylLPI4REKki-Btl7ya-15" target="iVylLPI4REKki-Btl7ya-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="560" as="sourcePoint" />
+            <mxPoint x="1300" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iVylLPI4REKki-Btl7ya-39" target="iVylLPI4REKki-Btl7ya-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-39" value="&lt;div class=&quot;flex flex-grow flex-col max-w-full&quot;&gt;&lt;div class=&quot;min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;amp;]:mt-5 overflow-x-auto&quot; data-message-id=&quot;17ad85f9-9708-4866-9787-655b945b7a60&quot; data-message-author-role=&quot;assistant&quot;&gt;&lt;div class=&quot;markdown prose w-full break-words dark:prose-invert dark&quot;&gt;&lt;p&gt;Â¡No se pierda esta oportunidad Ãºnica de ahorrar!&lt;/p&gt;&lt;p&gt;Venga a Super Store y aprovecha estas ofertas antes de que sea demasiado tarde. Â¡En tienda o en lÃ­nea, le esperamos! í ½í»ï¸&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="739" y="930" width="362" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iVylLPI4REKki-Btl7ya-25" target="iVylLPI4REKki-Btl7ya-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="919.5" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iVylLPI4REKki-Btl7ya-41" target="iVylLPI4REKki-Btl7ya-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-45" value="OpciÃ³n 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iVylLPI4REKki-Btl7ya-44">
+          <mxGeometry x="0.0698" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-41" value="&lt;p&gt;í ½í»’ AquÃ­ estÃ¡n las opciones disponibles:&lt;/p&gt;&lt;div align=&quot;left&quot;&gt;&lt;ol&gt;&lt;li&gt;Consultar estatus de pedido&lt;/li&gt;&lt;li&gt;Mostrar ofertas&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;p align=&quot;justify&quot;&gt;Por favor, &lt;b&gt;seleccione &lt;/b&gt;el nÃºmero correspondiente a la opciÃ³n que desee o simplemente &lt;b&gt;escriba s&lt;/b&gt;u solicitud. Estoy aquÃ­ para ayudarle.&lt;/p&gt;&lt;div class=&quot;mt-1 flex justify-start gap-3 empty:hidden&quot;&gt;&lt;div class=&quot;text-gray-400 flex self-end lg:self-center items-center justify-center lg:justify-start mt-0 -ml-1 h-7 gap-[2px] visible&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;span data-state=&quot;closed&quot; class=&quot;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="754" y="1080" width="332" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iVylLPI4REKki-Btl7ya-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415.1111111111111" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVylLPI4REKki-Btl7ya-43" value="Por favor, indÃ­queme el nÃºmero de seguimiento de su pedido para que pueda proceder a consultar su estado actual." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1310" width="250" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
