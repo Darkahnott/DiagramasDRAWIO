@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T15:03:59.294Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="w5BvTKdxI1Y5zMgYScmW" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-03T16:39:10.539Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="Hvd_dAVRoXT5h8GW7y02" version="24.2.1" type="github">
   <diagram name="PÃ¡gina-1" id="yqlE_gQyOXb5UloV9ekd">
-    <mxGraphModel dx="2440" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="2200" math="0" shadow="0">
+    <mxGraphModel dx="1000" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="2200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,7 +42,7 @@
         </mxCell>
         <mxCell id="iVylLPI4REKki-Btl7ya-29" value="Carrusel informativo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iVylLPI4REKki-Btl7ya-28" vertex="1" connectable="0">
           <mxGeometry x="-0.0379" y="3" relative="1" as="geometry">
-            <mxPoint x="-53" y="4" as="offset" />
+            <mxPoint x="-56" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iVylLPI4REKki-Btl7ya-8" value="&lt;div class=&quot;flex flex-grow flex-col max-w-full&quot;&gt;&lt;div class=&quot;min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;amp;]:mt-5 overflow-x-auto&quot; data-message-id=&quot;7e55b4e4-aeba-4bbc-aae0-2b37fe9931b0&quot; data-message-author-role=&quot;assistant&quot;&gt;&lt;div class=&quot;markdown prose w-full break-words dark:prose-invert dark&quot;&gt;Â¡Descubra las ofertas de temporada en Super Store! í ½í»’&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
